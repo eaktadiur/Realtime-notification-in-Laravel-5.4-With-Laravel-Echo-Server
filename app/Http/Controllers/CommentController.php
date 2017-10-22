@@ -16,14 +16,7 @@ class CommentController extends Controller
             'body'=>'required'
         ]);
 
-//        $comment=new Comment();
-//        $comment->body=$request->body;
-//        $comment->user_id=auth()->user()->id;
-//
-//        $thread->comments()->save($comment);
-
         $thread->addComment($request->body);
-
         $thread->user->notify(new RepliedToThread($thread));
 
         return back()->withMessage('comment created');

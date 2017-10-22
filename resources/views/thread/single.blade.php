@@ -29,7 +29,9 @@
         {{--@endif--}}
     </div>
     <hr>
+    @include('thread.partials.comment-form')
     <br>
+
 
     {{--Answer/comment--}}
 @foreach($thread->comments as $comment)
@@ -66,9 +68,6 @@
 
 
     @endforeach
-
-    <br><br>
-    @include('thread.partials.comment-form')
 
 @endsection
 
