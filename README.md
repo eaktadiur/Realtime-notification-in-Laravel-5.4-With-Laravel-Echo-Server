@@ -39,7 +39,7 @@ We would like to extend our thanks to the following sponsors for helping fund on
 - [SOFTonSOFA](https://softonsofa.com/)
 ## Credits
 
-- [Renato Marinho][https://github.com/webdevmatics/webdevforum]
+- [webdevmatics][https://github.com/webdevmatics/webdevforum]
 
 
 ## Contributing
